@@ -1,0 +1,14 @@
+name: riverpod_andrea
+description: A new brick created with the Mason CLI.
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.50 <0.1.0"
+
+vars:
+  project_name:
+    type: string
+    description: The project name
+    default: my_app
+    prompt: What is the project name?
